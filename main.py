@@ -275,7 +275,6 @@ def main():
                     active = True
             if event.type == pygame.KEYDOWN:
                 if active:
-                    tmp = user_text
                     if event.key == pygame.K_BACKSPACE:
                         user_text = user_text[:-1]
                         if user_text:
